@@ -28,7 +28,9 @@ your files will be shown on Github.
 A repository is also called _repo_ for short. In order to set a repo up you have to have a file 
 called `README.md` so your code could appear on github. This is also stated on the website.
 This may be confusing but before you add your repo you have to **make sure you are in the right folder**
-if you are not you will add the wrong file, it is very difficult to delete files off of github. 
+if you are not you will add the wrong file, it is very difficult to delete files off of github.
+This is also the place where your code will appear on github you will see this on your profile and all of 
+your repos are listed for the world to see. 
 
 
 ---
@@ -40,13 +42,17 @@ Workflow- A certain order in code to create the just right effect.
 3. `git push -u origin master` only once then its `git push`
 
 #### _git commands_
-* `git init`
-* `git add`
-* `git commit -m "comment for code"`
-* `git push -u orgin master`
+* `git init` - Initializes git 
+* `git add`- adds the README.md to the stage
+* `git commit -m "comment for code"` - lets github keep track of **_all_** changes
+* `git push -u orgin master` - Brings the code up to github for others to use/ see.
 * `git push`
-* `git clone URL`
-* `git status`
-* `git pull`
+* `git clone URL` - clones an exact copy of the code to edit but is **different** from `git pull` 
+has more branches to keep track 
+* `git status`- shows the commits and files added to the stage
+* `git pull` - takes in exact copy of code 
 
+
+---
+## Collaboration 
 
