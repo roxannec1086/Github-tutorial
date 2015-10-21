@@ -13,7 +13,7 @@ _by Roxanne Condello_
  * Allows you to pull/clone other peoples code in order to collaborate
  * Stores code and files
  * Needs Git in order to work
- * In order to use these commands make a github account [here](https://github.com/) 
+ <p> In order to use these commands make a github account [here](https://github.com/) </p>
 ---
 ## Initial Setup
 To initialize git in the command line to keep track of your code you use `git init`. 
@@ -62,3 +62,17 @@ _collaboration_ - when two coders work together by cloning and forking eachother
 3. Click the button 
 4. The code will appear on your profile
 
+#### _how to clone_
+1. Go to the code that you would like to clone on github
+2. On the right side there will be a URL 
+3. Make sure you copy the SSH key 
+4. then on yor command line type `git clone <SSH key>`
+
+#### _Using Git pull and pull request_
+<p>When the code `git pull` is used you send a pull request to the owner of the original code.
+If the owner accepts it you can change the code and make suggestions to the code. The owner 
+can still view this code but not while the changes are being made they can see it when you push the 
+code back to github. It is also a benefit to commit because yo can put in a comment which makes it 
+easier for the person you're collaborating with understands why you make the changes you made.
+The owner can also use `git pull` to edit the changes you made. 
+</p>
