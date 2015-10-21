@@ -46,7 +46,7 @@ Workflow- A certain order in code to create the just right effect.
 * `git commit -m "comment for code"` - lets github keep track of **_all_** changes
 * `git push -u orgin master` - Brings the code up to github for others to use/ see.
 * `git push`
-* `git clone URL` - clones an exact copy of the code to edit but is **different** from `git pull` 
+* `git clone <SSH key>` - clones an exact copy of the code to edit but is **different** from `git pull` 
 has more branches to keep track 
 * `git status`- shows the commits and files added to the stage
 * `git pull` - takes in exact copy of code 
