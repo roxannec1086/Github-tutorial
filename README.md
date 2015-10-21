@@ -14,7 +14,9 @@ _by Roxanne Condello_
  * Stores code and files
  * Needs Git in order to work
  <p> In order to use these commands make a github account [here](https://github.com/) </p>
+
 ---
+
 ## Initial Setup
 To initialize git in the command line to keep track of your code you use `git init`. 
 This is basically telling the command line to have git keep track of the code. 
