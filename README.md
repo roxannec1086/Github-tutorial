@@ -13,8 +13,7 @@ _by Roxanne Condello_
  * Allows you to pull/clone other peoples code in order to collaborate
  * Stores code and files
  * Needs Git in order to work
-
- In order to use these commands make a github account [here](https://github.com/) 
+ * In order to use these commands make a github account [here](https://github.com/) 
 ---
 ## Initial Setup
 To initialize git in the command line to keep track of your code you use `git init`. 
@@ -55,4 +54,11 @@ has more branches to keep track
 
 ---
 ## Collaboration 
+_collaboration_ - when two coders work together by cloning and forking eachothers code
+
+#### _How to fork_
+1. Go to the persons code on Github 
+2. On the right corner there will be a button that says fork 
+3. Click the button 
+4. The code will appear on your profile
 
