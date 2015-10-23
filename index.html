@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Github tutorial by roxannec1086</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Github tutorial</h1>
+        <p>Teaching others about Github </p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/roxannec1086/Github-tutorial" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/roxannec1086/Github-tutorial/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/roxannec1086/Github-tutorial/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Roxanne Condello</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<ul>
+<li>
+<p><strong>Git</strong></p>
+
+<ul>
+<li>Keeps track of code ("Snapshots") A.K.A version control</li>
+<li>Doesn't require github</li>
+</ul>
+</li>
+<li>
+<p><strong>Github</strong></p>
+
+<ul>
+<li>Tracks changes</li>
+<li>Allows you to pull/clone other peoples code in order to collaborate</li>
+<li>Stores code and files</li>
+<li>Needs Git in order to work
+<p> In order to use these commands make a github account <a href="https://github.com/">here</a> </p>
+</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>To initialize git in the command line to keep track of your code you use <code>git init</code>. 
+This is basically telling the command line to have git keep track of the code. 
+You can also add your files on the stage by using <code>git add file.name</code>. The stage is where 
+your files will be shown on Github. </p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>A repository is also called <em>repo</em> for short. In order to set a repo up you have to have a file 
+called <code>README.md</code> so your code could appear on github. This is also stated on the website.
+This may be confusing but before you add your repo you have to <strong>make sure you are in the right folder</strong>
+if you are not you will add the wrong file, it is very difficult to delete files off of github.
+This is also the place where your code will appear on github you will see this on your profile and all of 
+your repos are listed for the world to see. </p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>Workflow- A certain order in code to create the just right effect.</p>
+
+<h4>
+<a id="workflow-to-push-your-code" class="anchor" href="#workflow-to-push-your-code" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Workflow to push your code</em>
+</h4>
+
+<ol>
+<li><code>git add file.name</code></li>
+<li><code>git commit -m "comment for code"</code></li>
+<li>
+<code>git push -u origin master</code> only once then its <code>git push</code>
+</li>
+</ol>
+
+<h4>
+<a id="git-commands" class="anchor" href="#git-commands" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>git commands</em>
+</h4>
+
+<ul>
+<li>
+<code>git init</code> - Initializes git </li>
+<li>
+<code>git add</code>- adds the README.md to the stage</li>
+<li>
+<code>git commit -m "comment for code"</code> - lets github keep track of <strong><em>all</em></strong> changes</li>
+<li>
+<code>git push -u orgin master</code> - Brings the code up to github for others to use/ see.</li>
+<li><code>git push</code></li>
+<li>
+<code>git clone &lt;SSH key&gt;</code> - clones an exact copy of the code to edit but is <strong>different</strong> from <code>git pull</code> 
+has more branches to keep track </li>
+<li>
+<code>git status</code>- shows the commits and files added to the stage</li>
+<li>
+<code>git pull</code> - takes in exact copy of code </li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<p><em>collaboration</em> - when two coders work together by cloning and forking eachothers code</p>
+
+<h4>
+<a id="how-to-fork" class="anchor" href="#how-to-fork" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>How to fork</em>
+</h4>
+
+<ol>
+<li>Go to the persons code on Github </li>
+<li>On the right corner there will be a button that says fork </li>
+<li>Click the button </li>
+<li>The code will appear on your profile</li>
+</ol>
+
+<h4>
+<a id="how-to-clone" class="anchor" href="#how-to-clone" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>how to clone</em>
+</h4>
+
+<ol>
+<li>Go to the code that you would like to clone on github</li>
+<li>On the right side there will be a URL </li>
+<li>Make sure you copy the SSH key </li>
+<li>then on yor command line type <code>git clone &lt;SSH key&gt;</code>
+</li>
+</ol>
+
+<h4>
+<a id="using-git-pull-and-pull-request" class="anchor" href="#using-git-pull-and-pull-request" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Using Git pull and pull request</em>
+</h4>
+
+<p>When the code `git pull` is used you send a pull request to the owner of the original code.
+If the owner accepts it you can change the code and make suggestions to the code. The owner 
+can still view this code but not while the changes are being made they can see it when you push the 
+code back to github. It is also a benefit to commit because yo can put in a comment which makes it 
+easier for the person you're collaborating with understands why you make the changes you made.
+The owner can also use `git pull` to edit the changes you made. 
+</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/roxannec1086">roxannec1086</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
